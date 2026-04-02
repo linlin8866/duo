@@ -19,3 +19,10 @@ bash <(curl -sL https://raw.githubusercontent.com/linlin8866/duo/main/duo.sh)
 curl -sL 脚本地址 -o 脚本名.sh && bash 脚本名.sh
 
 
+curl -sL https://raw.githubusercontent.com/linlin8866/duo/main/duo.sh -o duo.sh && bash duo.sh
+
+
+bash <(curl -sL https://cdn.jsdelivr.net/gh/作者/仓库@分支/脚本名.sh)
+
+
+bash <(curl -sL https://cdn.jsdelivr.net/gh/linlin8866/duo@main/duo.sh)
